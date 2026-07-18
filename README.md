@@ -1,5 +1,23 @@
 # FinacPlus QA Automation Assignment
 
+## ⚠️ Important
+
+This project uses environment variables to securely store sensitive information such as DemoQA credentials and the ReqRes API key.
+
+For security reasons, the actual `.env` file has **not** been included in this repository.
+
+A sample configuration file (`.env.example`) is provided. Create a `.env` file in the project root using the following format:
+
+```env
+USERNAME=your_demoqa_username
+PASSWORD=your_demoqa_password
+REQRES_API_KEY=your_reqres_api_key
+```
+
+Replace the placeholder values with valid credentials before running the tests.
+
+> **Note:** The `.env` file is intentionally excluded from version control using `.gitignore` to protect sensitive credentials. If you require the exact configuration used during development for evaluation purposes, please feel free to contact me.
+
 ## Overview
 
 This project is developed as part of the **FinacPlus QA Automation Assignment** using **Playwright with JavaScript**. It demonstrates UI and API automation following the **Page Object Model (POM)** design pattern, along with reporting, test management, and defect tracking.
